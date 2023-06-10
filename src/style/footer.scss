@@ -1,0 +1,36 @@
+.containerFooter {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    z-index: 3;
+
+    img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .textFooter, .redesSociales {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 25px;
+
+        h5 {
+            cursor: pointer;
+            color: #01D457;
+        }
+    }
+
+    p {
+        color: gray;
+    }
+
+}

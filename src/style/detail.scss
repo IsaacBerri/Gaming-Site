@@ -1,0 +1,120 @@
+.containerDetail {
+  width: 100%;
+  height: 100vh;
+
+  .volver {
+    width: 100%;
+    height: 60px;
+    background-color: #01d457;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    a {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    h3 {
+      color: black;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  .containerInfo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .imagenes {
+      width: 50%;
+      height: 450px;
+      overflow: hidden;
+      clip-path: polygon(
+        0% 2.5em,
+        2.5em 0,
+        100% 0,
+        100% calc(100% - 2.5em),
+        calc(100% - 2.5em) 100%,
+        0 100%
+      );
+
+      .carousel {
+        width: 100%;
+        height: 450px;
+
+        .carousel-item {
+          width: 100%;
+          height: 450px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .infoJuego {
+      width: 40%;
+      height: 400px;
+      background-color: #01d457;
+      color: black;
+      position: relative;
+
+      h4 {
+        font-size: 30px;
+        margin: 20px;
+      }
+
+      p {
+        margin: 20px;
+        font-size: 18px;
+      }
+
+      h6 {
+        text-align: center;
+        margin: 30px 20px 0 20px;
+        font-size: 18px;
+      }
+
+      a {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+      }
+    }
+  }
+
+  .systemRequirements {
+    width: 100%;
+    height: auto;
+    background-color: #01d457;
+    display: flex;
+    justify-content: space-around;
+
+    .description, .requirements{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      color: black;
+      padding: 30px;
+
+      p {
+        font-size: 17px;
+      }
+    }
+
+
+  }
+}
+
