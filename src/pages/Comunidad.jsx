@@ -10,7 +10,7 @@ const Comunidad = () => {
       <NavBar principal={true} />
       <section className="videoComunidad">
         <video
-          src="../src/assets/Comunidad.mp4"
+          src="../dist/assets/Comunidad.mp4"
           autoPlay
           muted
           loop
