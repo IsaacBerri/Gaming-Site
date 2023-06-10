@@ -5,7 +5,7 @@ const SectionMixto = ({ section1, section2, section3, section4 }) => {
   if (section1) {
     return (
       <section className="SeccionVideo">
-        <video src="../dist/assets/Video.mp4" autoPlay muted loop></video>
+        <video src="../src/assets/Video.mp4" autoPlay muted loop></video>
         <div className="divSeccion1">
           <h3>We hope to see you!</h3>
           <p>
