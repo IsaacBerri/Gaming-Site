@@ -34,7 +34,8 @@ const SectionMixto = ({ section1, section2, section3, section4 }) => {
   } else if (section4) {
     return (
       <section className="seccion4">
-        <img src="https://i.postimg.cc/1tQMy4qg/fondo-networt.png" alt="" />
+        <h2>Explora el Mundo de los Juegos</h2>
+        <p>Descubre, Juega, Conquista: ¡Encuentra tu Próximo Juego Aquí!</p>
       </section>
     );
   }

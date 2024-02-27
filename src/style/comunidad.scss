@@ -67,7 +67,7 @@
   .imagenComunidad {
     div {
         width: 400px;
-        height: 700px;
+        height: 399px;
         background-color: black;
         position: absolute;
         bottom: -50%;
@@ -76,14 +76,6 @@
         border-top: #01d457 3px solid;
         border-left: #01d457 3px solid;
         border-bottom: #01d457 3px solid;
-        clip-path: polygon(
-      0% 2.5em,
-      2.5em 0,
-      100% 0,
-      100% calc(100% - 2.5em),
-      calc(100% - 2.5em) 100%,
-      0 100%
-    );
 
         h5 {
           color: #01d457;

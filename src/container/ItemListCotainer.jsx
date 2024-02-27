@@ -61,7 +61,7 @@ const ItemListCotainer = () => {
   };
 
   const filtederedGames = data.filter((game) => {
-    return game.title.toLowerCase().includes(filter.toLowerCase());
+    return game.title.toLowerCase().startsWith(filter.toLowerCase());
   });
 
   console.log(nameURL);
